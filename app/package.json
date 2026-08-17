@@ -22,7 +22,7 @@
     ],
     "win": {
       "target": ["portable"],
-      "icon": "assets/logo.webp"
+      "icon": "assets/logo.ico"
     }
   }
 }
