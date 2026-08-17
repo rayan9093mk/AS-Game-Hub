@@ -1,0 +1,28 @@
+{
+  "name": "as-game-hub",
+  "version": "1.0.0",
+  "description": "AS Game Hub - a premium Windows game launcher and tracker",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable",
+    "build": "electron-builder --win dir"
+  },
+  "devDependencies": {
+    "electron": "^38.1.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.as.gamehub",
+    "productName": "AS Game Hub",
+    "files": [
+      "**/*",
+      "!captures/**/*",
+      "!data/**/*"
+    ],
+    "win": {
+      "target": ["portable"],
+      "icon": "assets/logo.webp"
+    }
+  }
+}
