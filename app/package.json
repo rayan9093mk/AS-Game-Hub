@@ -22,7 +22,7 @@
     ],
     "win": {
       "target": ["portable"],
-      "icon": "assets/logo.ico"
+      "icon": "assets/logo.png"
     }
   }
 }
